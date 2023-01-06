@@ -1,14 +1,3 @@
-var buttons = document.querySelectorAll(".drum").length;
-
-for (var i = 0; i < buttons; i++) {
-    document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-        var buttonInnerHTML = this.innerHTML;
-        playSound(buttonInnerHTML);
-        buttonAnimation(buttonInnerHTML);
-  });
-
-}
-
 document.addEventListener("keydown", (e) => {
     key = e.key.toLocaleLowerCase()
     playSound(key)

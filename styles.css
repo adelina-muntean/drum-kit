@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -28,31 +28,23 @@ body {
 }
 
 .drum {
-    text-transform: uppercase;
-    outline: none;
-    border: 5px solid rgba(0, 0, 0, 0.8);
     font-size: 3rem;
     font-family: 'Roboto Condensed', sans-serif;
     color: #d6d6d6;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px solid rgba(0, 0, 0, 0.8);
     border-radius: 8px;
-    display: inline-block;
     width: 125px;
     height: 125px;
-    text-align: center;
     margin: 20px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-br {
-  display: block;
-  margin-bottom: 2px;
-  font-size:2px;
-  line-height: 2px;
 }
 
 .drum-name {
-  margin-top: -100px !important;
-  font-size: 1rem;
-  color: aqua;
+    margin-top: 7px;
+    font-size: 1rem;
+    color: aqua;
 }
